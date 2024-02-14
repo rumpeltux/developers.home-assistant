@@ -8,6 +8,11 @@ Alright, so it's time to write your first code for your integration. AWESOME. Do
 python3 -m script.scaffold integration
 ```
 
+If you are using the vscode devcontainers setup, do the following instead:
+
+* Open the command palette in Visual Studio Code - `Shift`+`Command`+`P`(Mac) / `Ctrl`+`Shift`+`P` (Windows/Linux).
+* Select `Tasks: Run Task` -> `Create new integration`
+
 This will set you up with everything that you need to build an integration that is able to be set up via the user interface. More extensive examples of integrations are available from [our example repository](https://github.com/home-assistant/example-custom-config/tree/master/custom_components/).
 
 ## The minimum
